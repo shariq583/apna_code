@@ -18,7 +18,7 @@ int main ()
    {
     for (N_tasks; N_tasks>=100; N_tasks++)
     {
-        Task_phase:
+        // Task_phase:
         {
         cout<<"\n Enter The Task :"<<endl;
         cin>>tasks[N_tasks];
@@ -26,20 +26,20 @@ int main ()
         cout<<"DO YOu WANT TO CONTINUE ADDING THE TASK (Y/N):"<<endl;
         cin>>Choice_chk;}
         
-        if (Choice_chk=='Y'|| Choice_chk=='y')
-        {
-            goto Task_phase;
-        }
-        else if (Choice_chk=='N'|| Choice_chk=='n')
-        {
-            break;
-            goto Ch_phase;
-        }
-        else 
-        {
-            cout<<"\n Invaild Input";
-            goto Task_phase;
-        }
+        // if (Choice_chk=='Y'|| Choice_chk=='y')
+        // {
+        //     goto Task_phase;
+        // }
+        // else if (Choice_chk=='N'|| Choice_chk=='n')
+        // {
+        //     break;
+        //     goto Ch_phase;
+        // }
+        // else 
+        // {
+        //     cout<<"\n Invaild Input";
+        //     goto Task_phase;
+        // }
 
 
     }
