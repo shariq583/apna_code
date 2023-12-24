@@ -10,7 +10,7 @@ int main ()
     {
         /* code */
         int marks[i];
-        cout<<"the marks of "
+        cout<<"the marks of ";
 
 
     }
