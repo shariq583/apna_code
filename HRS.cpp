@@ -20,14 +20,14 @@ int main ()
     int choice;
     string G_name;
     Rese Guest ;
-    Choice_phase:
+    
+   
+   do {
+
     {cout<<"\n What do you want to do:";
     cout<<"\n1.Entry of guest ";
     cout<<"\n2.Check info of guest " ;\
     cin>>choice;}
-
-
-
 
     switch(choice){
     case 1:
@@ -46,7 +46,6 @@ int main ()
     cin>>Guest.f_No;
     cout<<"\n Any Balance to collect :";
     cin>>Guest.Bal;
-    goto Choice_phase;
     break;
 
     case 2:
@@ -57,14 +56,14 @@ int main ()
     cout<<"\nThe Floor Number of:"<<G_name<<"is "<<Guest.f_No;
     cout<<"\nThe Remaing Balance of: "<<G_name<<"is "<<Guest.Bal;
     cout<<"\nThe Case Number of: "<<G_name<<"is "<<Guest.Cid;
-    goto Choice_phase;
     break;
 
     default :
     cout<<"\nWrong Choice!";
-    goto Choice_phase;
     break;
     }
+   }
+    while(choice !=4) ;
 
     
      
