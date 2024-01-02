@@ -17,13 +17,14 @@ typedef struct Res
 
 int main ()
 {
+    
     int choice;
     string G_name;
     Rese Guest ;
     
    
    do {
-
+ 
     {cout<<"\n What do you want to do:";
     cout<<"\n1.Entry of guest ";
     cout<<"\n2.Check info of guest " ;\
