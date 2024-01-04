@@ -34,10 +34,10 @@ class student {
      void s_Data(int a, int b , int c , char d);
      void g_data()
      {
-        cout<<"The address of student is :"<<ad_rs;
-        cout<<"The fees of student is :"<<fees;
-        cout<<"The class of student is :"<<cl_as;
-        cout<<"The section fo student is :"<<Sec;
+        cout<<"\nThe address of student is :"<<ad_rs;
+        cout<<"\nThe fees of student is :"<<fees;
+        cout<<"\nThe class of student is :"<<cl_as;
+        cout<<"\nThe section fo student is :"<<Sec;
 
 
 
@@ -46,7 +46,13 @@ class student {
 };
 void student :: s_Data(int a,  int b , int c ,char d)
 {
-    
+
+ 
+    ad_rs=a;
+    fees=b;
+    cl_as=c;
+    Sec=d;
+
 
 }
 
@@ -58,6 +64,21 @@ int main ()
     // shariq.e=86;
     // shariq.setData(1,2,3);
     // shariq.getData();
+    int a;
+    int b;
+    int c;
+    char d;
+       cout<<"\nEnter address";
+    cin>>a;
+    cout<<"\nEnter Fees";
+    cin>>b;
+    cout<<"\nEnter Class";
+    cin>>c;
+    cout<<"\nEnter Section";
+    cin>>d;
+    student shayan;
+    shayan.s_Data(a,b,c,d);
+    shayan.g_data();
 
 
 
