@@ -20,18 +20,21 @@ typedef struct Res
 
 int main ()
 {
-    
     int choice;
     string G_name;
     Rese Guest ;
     
    
    do {
- 
+
     {cout<<"\n What do you want to do:";
     cout<<"\n1.Entry of guest ";
     cout<<"\n2.Check info of guest " ;
+<<<<<<< HEAD:HRS.cpp
     cout<<"\n3.Exit ";
+=======
+    cout<<"\n3.Exit";
+>>>>>>> b39c2756907e70fa67207eb0462254950d04aec9:Cpp_Code/HRS.cpp
     cin>>choice;}
 
     switch(choice){
