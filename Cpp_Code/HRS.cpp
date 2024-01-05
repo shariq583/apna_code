@@ -15,6 +15,9 @@ typedef struct Res
 
 } Rese;
 
+
+
+
 int main ()
 {
     int choice;
@@ -27,7 +30,11 @@ int main ()
     {cout<<"\n What do you want to do:";
     cout<<"\n1.Entry of guest ";
     cout<<"\n2.Check info of guest " ;
+<<<<<<< HEAD:HRS.cpp
+    cout<<"\n3.Exit ";
+=======
     cout<<"\n3.Exit";
+>>>>>>> b39c2756907e70fa67207eb0462254950d04aec9:Cpp_Code/HRS.cpp
     cin>>choice;}
 
     switch(choice){
@@ -51,14 +58,18 @@ int main ()
 
     case 2:
     //recal phase
-    cout<<"\nThe name of guest :"<<G_name;
-    cout<<"\nThe CNIC Number of :"<<G_name<<"is "<<Guest.g_Nic;
-    cout<<"\nThe Room Number of: "<<G_name<<"is "<<Guest.R_No;
-    cout<<"\nThe Floor Number of:"<<G_name<<"is "<<Guest.f_No;
-    cout<<"\nThe Remaing Balance of: "<<G_name<<"is "<<Guest.Bal;
-    cout<<"\nThe Case Number of: "<<G_name<<"is "<<Guest.Cid;
+    cout<<"\n=====================================";
+    cout<<"\n The name of guest "<<G_name;
+    cout<<"\n The CNIC Number of "<<G_name<<" is :"<<Guest.g_Nic;
+    cout<<"\n The Room Number of "<<G_name<<" is :"<<Guest.R_No;
+    cout<<"\n The Floor Number of "<<G_name<<" is :"<<Guest.f_No;
+    cout<<"\n The Remaing Balance of "<<G_name<<" is :"<<Guest.Bal;
+    cout<<"\n The Case Number of "<<G_name<<" is :"<<Guest.Cid;
+    cout<<"\n=====================================";
     break;
-
+    case 3:
+        cout<<"\n You choose to exit ";
+        break;
     default :
     cout<<"\nWrong Choice!";
     break;

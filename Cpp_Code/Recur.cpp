@@ -18,19 +18,21 @@ using namespace std;
 //     }
 //     return a * fac(a-1);
 // }
-int power (int num , int pow_n)
-    {   
-      if (pow_n<=0)
-      {
-            return 1;
-      }
-      else 
-      {
-            return num * power(num,(pow_n-1));
-      }
+// int power (int num , int pow_n)
+//     {   
+//       if (pow_n<=0)
+//       {
+//             return 1;
+//       }
+//       else 
+//       {
+//             return num * power(num,(pow_n-1));
+//       }
 
 
-    }   
+//     }   
+
+
 int main ()
 {
 int n ;
@@ -39,10 +41,10 @@ int p ;
 // cout<<fibo(a);
 // cout<<"Enter a value to find it's factorial ";cin>>a ;
 // cout<<"\n The factorial of "<<a<<" is: "<<fac(a);
-    cout<<"\n For what number you want the power ";
-    cin>>n;
-    cout<<"\n What the power will be  ";
-    cin>>p;
-    cout<<n <<" to the power "<<p <<" is "<<power(n,p);
+    // cout<<"\n For what number you want the power ";
+    // cin>>n;
+    // cout<<"\n What the power will be  ";
+    // cin>>p;
+    // cout<<n <<" to the power "<<p <<" is "<<power(n,p);
 return 0;
 }
