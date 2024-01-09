@@ -121,8 +121,11 @@ int main()
     //    }
     //     while(choice !=3) ;
 
+    cout<<"\n=======================";
     cout<<"\nHotel Resrvation System";
-
+    cout<<"\n=======================";
+    cout<<"\n What do you want to do";
+    
 
 
 
