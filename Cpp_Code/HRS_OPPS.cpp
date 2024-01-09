@@ -14,6 +14,7 @@ class Res
     string Contact[100];
 
 public:
+    static int count;
     void initCounter()
     {
         counter = 0;
@@ -34,12 +35,13 @@ void Res :: setVal()
     cout<<"\nAny Dues?";
     cin>>Bal[counter];
     counter ++;
-
+    count++;
 }
 void Res ::reCal()
 {
    for (int i =0 ; i < counter ; i++)
    {
+    cout<<count;
     cout<<"\n---------------------------------";
     cout<<"\nThe name of guest is :"<<G_name[i];
     cout<<"\nThe Room No. of guest is :"<<R_no[i];
@@ -52,6 +54,7 @@ void Res ::reCal()
     cout<<"\n---------------------------------";
    }
 }
+int Res:: count;
 int main()
 {   
     Res hotel;
