@@ -12,8 +12,8 @@ class complex
     }
     void SetCom (complex num1 , complex num2)
     {
-        n1=num1.n1+num2.n2;
-        n2=num1.n1+num2.n2;
+        n1=num1.n1+num2.n1;
+        n2=num1.n2+num2.n2;
     }
     void printNum ()
     {
@@ -23,9 +23,7 @@ class complex
 
 int main ()
 {
-    complex c1 , c2 , c3;
-    
-  
+    complex c1 , c2 , c3; 
     c1.setData( 4 , 5);
     c1.printNum();
     c2.setData(8 , 9);
