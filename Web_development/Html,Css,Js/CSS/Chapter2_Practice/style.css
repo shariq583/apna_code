@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: cursive;
+}
+.nav
+{
+    border: 2px solid brown;
+    padding-right: 10px;
+    height: 25px;
+    background-color: rgb(251, 112, 112);
+    color: cornsilk;
+    text-align: right;
+    background-size: cover;
+}
+a:link{color: cornsilk;}
+a:visited{color: cornsilk;}
+a:active{color: cornsilk;}
+a:hover{
+    color: rgba(3, 255, 83, 0.924);
+}
+#main
+{
+    height: 1px;
+   
+    border-radius: 200px solid brown;
+    padding-top:  150px;
+    padding-left: 350px;
+    text-align: justify;
+}
