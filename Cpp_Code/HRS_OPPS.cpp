@@ -41,7 +41,6 @@ void Res ::reCal()
     
    for (int i =0 ; i < counter ; i++)
    {
-    cout<<counter+1;
     cout<<"\n---------------------------------";
     cout<<"\nThe name of guest is :"<<G_name[i];
     cout<<"\nThe Room No. of guest is :"<<R_no[i];
