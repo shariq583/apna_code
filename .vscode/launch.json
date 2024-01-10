@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "f:/Coding/C++/ExpLAB/Proj/apna_code",
-      "program": "f:/Coding/C++/ExpLAB/Proj/apna_code/build/Debug/outDebug",
+      "cwd": "f:/Coding/Programing/MainCodeGitHub/ExpLAB/Proj/apna_code",
+      "program": "f:/Coding/Programing/MainCodeGitHub/ExpLAB/Proj/apna_code/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
