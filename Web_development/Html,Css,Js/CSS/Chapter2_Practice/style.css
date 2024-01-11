@@ -9,11 +9,12 @@ body{
 {
     border: 2px solid brown;
     padding-right: 10px;
-    height: 25px;
+    height: 38px;
     background-color: rgb(251, 112, 112);
     color: cornsilk;
     text-align: right;
     background-size: cover;
+    
 }
 a:link{color: cornsilk;}
 a:visited{color: cornsilk;}
@@ -29,4 +30,13 @@ a:hover{
     padding-top:  150px;
     padding-left: 350px;
     text-align: justify;
+}
+.m_heading{
+    padding-left: 10px;
+    color:crimson;
+}
+#img 
+{
+    margin-right: 800px;
+    padding-top: 500px;
 }
