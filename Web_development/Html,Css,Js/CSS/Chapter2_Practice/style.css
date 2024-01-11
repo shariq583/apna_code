@@ -8,12 +8,13 @@ body{
 .nav
 {
     border: 2px solid brown;
+    padding-bottom: 5px;
     padding-right: 10px;
     height: 38px;
     background-color: rgb(251, 112, 112);
     color: cornsilk;
     text-align: right;
-    background-size: cover;
+    background-size: contain;
     
 }
 a:link{color: cornsilk;}
@@ -22,7 +23,7 @@ a:active{color: cornsilk;}
 a:hover{
     color: rgba(3, 255, 83, 0.924);
 }
-#main
+#main_contact
 {
     height: 1px;
    
@@ -37,6 +38,14 @@ a:hover{
 }
 #img 
 {
-    margin-right: 800px;
-    padding-top: 500px;
+
+    margin-right: 82vw;
+    /* padding-top: 500px; */
+}
+.img_menu{
+    padding-left: 201px;
+    padding-top: 5px;
+}
+#q_main{
+    text-align: justify;
 }
