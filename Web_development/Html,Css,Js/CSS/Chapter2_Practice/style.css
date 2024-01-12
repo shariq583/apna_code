@@ -25,12 +25,13 @@ a:hover{
 }
 #main_contact
 {
-    height: 1px;
-   
-    border-radius: 200px solid brown;
-    padding-top:  150px;
-    padding-left: 350px;
+    /* height: 1px; */
+    border: 2px solid crimson;
+    margin-right: 42%;
+    margin-top:  150px;
+    margin-left: 588px;
     text-align: justify;
+
 }
 .m_heading{
     padding-left: 10px;
@@ -42,10 +43,29 @@ a:hover{
     margin-right: 82vw;
     /* padding-top: 500px; */
 }
-.img_menu{
-    padding-left: 201px;
-    padding-top: 5px;
+#img_menu{
+    margin-left: 300px;
+    margin-top: 5px;
+    border: 2px;
+    border-style: solid;
+    border-color: lime;
 }
 #q_main{
-    text-align: justify;
+    text-align: center;
+    padding-left: 44%;
+}
+hr{
+    color: crimson;
+}
+#C_cake
+{
+    margin-left: 10%;
+} 
+#Cake
+{
+    margin-left: 5%;
+}
+#brownies
+{
+    margin-left: 5%;
 }
