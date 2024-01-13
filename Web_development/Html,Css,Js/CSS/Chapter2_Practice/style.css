@@ -8,12 +8,13 @@ body{
 .nav
 {
     border: 2px solid brown;
+    padding-bottom: 5px;
     padding-right: 10px;
     height: 38px;
     background-color: rgb(251, 112, 112);
     color: cornsilk;
     text-align: right;
-    background-size: cover;
+    background-size: contain;
     
 }
 a:link{color: cornsilk;}
@@ -22,14 +23,15 @@ a:active{color: cornsilk;}
 a:hover{
     color: rgba(3, 255, 83, 0.924);
 }
-#main
+#main_contact
 {
-    height: 1px;
-   
-    border-radius: 200px solid brown;
-    padding-top:  150px;
-    padding-left: 350px;
+    /* height: 1px; */
+    border: 2px solid crimson;
+    margin-right: 42%;
+    margin-top:  150px;
+    margin-left: 588px;
     text-align: justify;
+
 }
 .m_heading{
     padding-left: 10px;
@@ -37,6 +39,33 @@ a:hover{
 }
 #img 
 {
-    margin-right: 800px;
-    padding-top: 500px;
+
+    margin-right: 82vw;
+    /* padding-top: 500px; */
+}
+#img_menu{
+    margin-left: 300px;
+    margin-top: 5px;
+    border: 2px;
+    border-style: solid;
+    border-color: lime;
+}
+#q_main{
+    text-align: center;
+    padding-left: 44%;
+}
+hr{
+    color: crimson;
+}
+#C_cake
+{
+    margin-left: 10%;
+} 
+#Cake
+{
+    margin-left: 5%;
+}
+#brownies
+{
+    margin-left: 5%;
 }
