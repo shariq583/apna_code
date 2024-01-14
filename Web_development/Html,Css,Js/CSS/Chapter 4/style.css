@@ -5,12 +5,18 @@
 .box1
 {
     background-color: aqua;
-    display: inline;
+    display: inline-block;
     width: 500px;
+    /* margin-right: 12px; */
 }
 .box2
 {
-    width: 500px;
+    margin-top: 0%;
+    width: 308px;
+    height: 72px;
+    text-align: center;
+    font-size: 15px;
+    /* margin-right: 1px; */
     background-color:aquamarine;
-    display: inline;
+    display: inline-block;
 }
