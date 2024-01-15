@@ -9,14 +9,26 @@ body{
 {
     border: 2px solid brown;
     padding-bottom: 0px;
-    padding-right: 10px;
-    
+    padding-right: 0px;
+    padding-left: 0px;
     height: 38px;
+    width: 100%;
     background-color: rgb(251, 112, 112);
     color: cornsilk;
     text-align: right;
     background-size: contain;
     
+}
+.nav a{
+    margin-top: 0px;
+    display: inline-block;
+    text-align: right;
+    margin-left: 10px;
+    overflow: hidden;
+    
+    
+
+
 }
 a:link{color: cornsilk;}
 a:visited{color: cornsilk;}
@@ -40,8 +52,8 @@ a:hover{
 }
 #img 
 {
-
-    margin-right: 82vw;
+    padding-left: 0%;
+    margin-right: 73%;
     /* padding-top: 500px; */
 }
 #img_menu{
