@@ -14,7 +14,7 @@ class Complex
     }
     void printNum(void)
     {
-        cout<<"Your Complex Number is "<<n1<<" + "<<n2<<"i";
+        cout<<"Your Complex Number is "<<n1<<" + "<<n2<<"i"<<endl;
     }
     friend Complex sumComplex(Complex o1 ,Complex o2);
 
@@ -23,18 +23,20 @@ Complex sumComplex(Complex o1 , Complex o2 )
 {
     Complex o3;
     o3.impNum((o1.n1 + o2.n1) , (o1.n2+o2.n2));
-
+    return o3;
 }
 
 
 int main ()
 {
     Complex c1 , c2 ,sum;
-    c1.impNum( 1 , 2);
+    c1.impNum( 5 , 2);
     c1.printNum();
     c2.impNum( 3, 4);
     c2.printNum();
-    c1.impNum( 1 , 2);
+    sum=sumComplex(c1 , c2);
+    sum.printNum();
+
 
    return 0;
 }

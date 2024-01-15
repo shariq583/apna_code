@@ -9,14 +9,26 @@ body{
 {
     border: 2px solid brown;
     padding-bottom: 0px;
-    padding-right: 10px;
-    
+    padding-right: 0px;
+    padding-left: 0px;
     height: 38px;
+    width: 100%;
     background-color: rgb(251, 112, 112);
     color: cornsilk;
     text-align: right;
     background-size: contain;
     
+}
+.nav a{
+    margin-top: 0px;
+    display: inline-block;
+    text-align: right;
+    margin-left: 10px;
+    overflow: hidden;
+    
+    
+
+
 }
 a:link{color: cornsilk;}
 a:visited{color: cornsilk;}
@@ -27,7 +39,7 @@ a:hover{
 #main_contact
 {
     /* height: 1px; */
-    border: 2px solid crimson;
+    border: 2px solid rgb(20, 220, 87);
     margin-right: 42%;
     margin-top:  150px;
     margin-left: 588px;
@@ -40,8 +52,8 @@ a:hover{
 }
 #img 
 {
-
-    margin-right: 82vw;
+    padding-left: 0%;
+    margin-right: 73%;
     /* padding-top: 500px; */
 }
 #img_menu{
