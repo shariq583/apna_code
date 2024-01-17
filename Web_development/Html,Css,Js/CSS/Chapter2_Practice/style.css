@@ -1,3 +1,4 @@
+/* Major Layout Design */
 *{
     margin: 0px;
     padding: 0px;
@@ -5,8 +6,49 @@
 body{
     font-family: cursive;
 }
+.left
+{
+    display:inline-block;
+    /* border-top: 2px solid blueviolet;
+    border-right: 2px solid blueviolet;
+    border-bottom: 2px solid blueviolet; */
+    margin:0vh 0.3vw 1vh 0.1vw;
+    padding-left: 1vw;
+    padding-right: 15vw;
+    padding-bottom: 0.7vh;
+    border: 2px solid blueviolet;
+    border-radius: 4vh;
+}
+.right
+{
+    position: absolute;
+    top: 16vh;
+    right: 1vw;
+    bottom: 1vh;
+    left: 49vw;
+
+    /* margin: 5vh 18vw 1vh -23vw; */
+    
+    margin: auto;
+    padding-top: 0.3vh;
+    padding-left: 1vw;
+    padding-right: 12vw;
+    padding-bottom: auto;
+    display:inline-block;
+    border-radius: 4vh;
+    border: 2px solid blueviolet;
+    /* border-top:2px solid blueviolet;
+    border-left:2px solid blueviolet;
+    border-bottom:2px solid blueviolet; */
+}
+hr{
+    color: crimson;
+}
+/* Navigation Bar */
 .nav
 {
+    /* position: relative ; */
+    /* z-index: 1; */
     border: 2px solid brown;
     padding-bottom: 0px;
     padding-right: 0px;
@@ -25,10 +67,7 @@ body{
     text-align: right;
     margin-left: 10px;
     overflow: hidden;
-    
-    
-
-
+    text-decoration: none;
 }
 a:link{color: cornsilk;}
 a:visited{color: cornsilk;}
@@ -36,25 +75,20 @@ a:active{color: cornsilk;}
 a:hover{
     color: rgba(3, 255, 83, 0.924);
 }
-#main_contact
-{
-    /* height: 1px; */
-    border: 2px solid rgb(20, 220, 87);
-    margin-right: 42%;
-    margin-top:  150px;
-    margin-left: 588px;
-    text-align: justify;
-
-}
+    #img /*Favicon image*/
+    {
+        padding-left: 0%;
+        margin-right: 73%;    
+    }
+/* article page-index.html */
+    .main{
+        background-color: rgb(253, 232, 232);
+        position: relative;
+    }
+/* left */
 .m_heading{
     padding-left: 10px;
     color:crimson;
-}
-#img 
-{
-    padding-left: 0%;
-    margin-right: 73%;
-    /* padding-top: 500px; */
 }
 #img_menu{
     margin-left: 150px;
@@ -70,34 +104,34 @@ a:hover{
     text-align: center;
     padding-left: 44%;
 }
-hr{
-    color: crimson;
+#q{
+    color:crimson;
+    margin-left: 1%;
 }
-#C_cake
+/* right */
+/* #C_cake
 {
     margin-left: 10%;
 } 
 #Cake
 {
     margin-left: 5%;
-}
-#brownies
+} */
+/* #brownies
 {
     margin-left: 5%;
-}
-.main{
-    background-color: rgb(253, 232, 232);
-}
-#q{
-    color:crimson;
-    margin-left: 1%;
-}
-.left
+} */
+.special
 {
-    display:inline-block;
-    border:2px solid blue;
+    position: sticky;
+    
 }
-.right
+#main_contact
 {
-    display:inline-block;
+    /* height: 1px; */
+    border: 2px solid rgb(20, 220, 87);
+    margin-right: 42%;
+    margin-top:  150px;
+    margin-left: 588px;
+    text-align: justify;
 }
