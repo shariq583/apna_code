@@ -48,6 +48,5 @@ int main ()
     Positon two(x2,y2);
     two.showCase();
     d(one , two);
-
     return 0;
 }
